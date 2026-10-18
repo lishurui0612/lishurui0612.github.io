@@ -70,8 +70,8 @@ h1 span { display: inline-block; margin-left: 8px; color: var(--muted); font: 40
 .publication .item-links { margin-top: 3px; }
 
 #dataset .item-links { margin-top: 9px; }
-.csd-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px 20px; margin-bottom: 6px; }
-.csd-heading h3 { margin: 0; }
+.dataset-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px 20px; margin-bottom: 6px; }
+.dataset-heading h3 { margin: 0; }
 .widget-area { display: flex; align-items: center; gap: 8px; max-width: min(100%, 650px); min-height: 34px; }
 .widget-caption { color: var(--muted); font: 11px/1.4 var(--mono); white-space: nowrap; }
 .widget-area .sciencedb-metric { max-width: 100%; }
@@ -90,7 +90,7 @@ footer { padding: 11px 0 26px; border-top: 1px solid var(--line); color: var(--m
   .research-list { grid-template-columns: 1fr; gap: 6px; }
   .publication { grid-template-columns: 1fr; gap: 2px; padding: 10px 0 11px; }
   .year { padding-top: 0; }
-  .csd-heading { align-items: flex-start; flex-direction: column; }
+  .dataset-heading { align-items: flex-start; flex-direction: column; }
   .widget-area { width: 100%; overflow-x: auto; }
 }
 @media (prefers-reduced-motion: reduce) {
